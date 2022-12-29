@@ -3,11 +3,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: 900px;
   height: 58px;
   min-height: 58px;
   padding: 0px 12px;
-  background-color: #f2f4ff;
+  background-color: #d8ddfd;
   border-radius: 12px;
   margin-bottom: 24px;
 }
