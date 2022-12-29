@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 900px;
+  width: 100%;
   height: 58px;
   min-height: 58px;
   padding: 0px 12px;
@@ -19,6 +19,7 @@
   position: relative;
   margin-right: 12px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 .list-card-text-container {

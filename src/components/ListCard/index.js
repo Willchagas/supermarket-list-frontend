@@ -2,7 +2,7 @@ import "./index.css";
 
 export const ListCard = ({ item, onClick, onCheckItem }) => {
   return (
-    <div className="list-card-container" onClick={() => onClick(item)}>
+    <div className="list-card-container">
       <img
         className="checkbox"
         alt="checkbox-icon"
