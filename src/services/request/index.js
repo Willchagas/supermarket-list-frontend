@@ -5,7 +5,7 @@ export const getList = async () => {
     const result = await api.get("/list-items");
     return result.data;
   } catch (error) {
-    alert("Erro ao buscar dados da API");
+    console.log("Erro ao buscar dados da API");
     return { error };
   }
 };
@@ -29,7 +29,7 @@ export const updateItem = async (id, item) => {
     });
     return result.data;
   } catch (error) {
-    alert("Erro ao salvar novo item");
+    alert("Erro ao atualizar novo item");
     return { error };
   }
 };
