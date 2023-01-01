@@ -3,7 +3,7 @@
 This is an application build using React.js, with the goal of make easier create supermarket lists.
 
 <p>
-  
+  <img height="500" src="public/list-demo.mkv">
 </p>
 
 ## Link to Production App:
@@ -25,7 +25,7 @@ https://supermarket-list-fronted.vercel.app/
 1. Clone the project:
 
 ```
- git clone https://github.com/gabrielrangel95/supermarket-list-fronted.git
+ git clone https://github.com/Willchagas/supermarket-list-frontend
 ```
 
 2. Install the dependecies:
