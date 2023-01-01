@@ -3,7 +3,7 @@
 This is an application build using React.js, with the goal of make easier create supermarket lists.
 
 <p>
-  <img height="500" src="public/list-demo.mkv">
+  <img height="500" src="public/list-demo.gif">
 </p>
 
 ## Link to Production App:
