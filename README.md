@@ -8,7 +8,7 @@ This is an application build using React.js, with the goal of make easier create
 
 ## Link to Production App:
 
-https://supermarket-list-fronted.vercel.app/
+https://supermarket-list-frontend.vercel.app
 
 ## Technologies Used
 
