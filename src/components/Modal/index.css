@@ -38,7 +38,7 @@
   width: 24px;
   background-color: transparent;
   border: 0;
-  background-image: url("../../../public/images/close.svg");
+  background-image: url('../../../public/images/close.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

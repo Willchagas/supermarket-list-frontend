@@ -1,27 +1,27 @@
 @font-face {
-  font-family: "Avenir Next";
-  src: url("/public/fonts/AvenirNext-It.otf");
+  font-family: 'Avenir Next';
+  src: url('/public/fonts/AvenirNext-It.otf');
 }
 @font-face {
-  font-family: "Avenir Next";
-  src: url("/public/fonts/AvenirNext-Bold.otf");
+  font-family: 'Avenir Next';
+  src: url('/public/fonts/AvenirNext-Bold.otf');
   font-weight: bold;
 }
 @font-face {
-  font-family: "Avenir Next";
-  src: url("/public/fonts/AvenirNext-Regular.otf");
+  font-family: 'Avenir Next';
+  src: url('/public/fonts/AvenirNext-Regular.otf');
   font-style: italic;
 }
 
 body {
   margin: 0;
-  font-family: "Avenir Next";
+  font-family: 'Avenir Next';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
