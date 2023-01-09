@@ -1,7 +1,15 @@
 import { useState, useEffect } from 'react'
-import './index.css'
 import { getList, updateItem } from 'services/request'
-import { Button, ListRender, Loader, Modal } from 'components'
+import { Button, ListRender, Loader, Modal, Title } from 'components'
+import {
+  ScreenContainer,
+  ContentContainer,
+  Header,
+  TitleContainer,
+  LogoImage,
+  HeaderButtonContainer,
+  ListContainer
+} from './styles'
 
 export const ListScreen = () => {
   const [modalVisible, setModalVisible] = useState(false)
@@ -49,24 +57,22 @@ export const ListScreen = () => {
   }
 
   return (
-    <div className="list-screen-container">
-      <div className="list-screen-content-container">
-        <div className="list-screen-header">
-          <div className="list-screen-title-container">
-            <img
-              className="logo-image"
-              src="/images/logo.png"
-              alt="supermarket-list-logo"
-            />
-            <h1 className="list-screen-header-title">Lista Supermercado</h1>
-          </div>
-          <div className="list-screen-header-button-container">
+    <ScreenContainer>
+      <ContentContainer>
+        <Header>
+          <TitleContainer>
+            <LogoImage />
+            <Title fontSize={32} lineHeight={30} ml={12}>
+              Lista Supermercado
+            </Title>
+          </TitleContainer>
+          <HeaderButtonContainer>
             <Button onClick={onClickAddButton}>
               {window.innerWidth <= 420 ? '+' : 'Adicionar'}
             </Button>
-          </div>
-        </div>
-        <div className="list-screen-list-container">
+          </HeaderButtonContainer>
+        </Header>
+        <ListContainer>
           {loading ? (
             <Loader />
           ) : (
@@ -76,11 +82,11 @@ export const ListScreen = () => {
               list={listData}
             />
           )}
-        </div>
-      </div>
+        </ListContainer>
+      </ContentContainer>
       {modalVisible && (
         <Modal item={selectedItem} onClose={onClickCloseButton} />
       )}
-    </div>
+    </ScreenContainer>
   )
 }

@@ -14,8 +14,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'react/no-unescaped-entities': 'off',
-    'multiline-ternary': 'off',
-    'space-before-function-paren': 'off'
+    'multiline-ternary': 'off'
   },
   settings: {
     'import/resolver': {
