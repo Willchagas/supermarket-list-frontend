@@ -4,7 +4,7 @@ export const ScreenContainer = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-color: #7785db;
+  background-color: ${({ theme }) => theme.colors.primary};
   align-items: center;
   justify-content: center;
 `
