@@ -30,3 +30,8 @@ export const Subtitle = styled.h3`
     margin-bottom: ${({ mb }) => mb || 48}px;
   }
 `
+export const SmallText = styled.span`
+  text-align: ${({ align }) => align || 'center'};
+  font-size: ${({ fontSize }) => fontSize || 16}px;
+  font-weight: ${({ fontWeight }) => fontWeight || 500};
+`
